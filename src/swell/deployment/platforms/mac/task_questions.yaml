@@ -1,0 +1,33 @@
+crtm_coeff_dir:
+  default_value: ${HOME2}/discover/nobackup/projects/gmao/advda/SwellStaticFiles/jedi/crtm_coefficients/2.4.1/
+
+existing_geos_gcm_build_path:
+  default_value: ${HOME2}/discover/nobackup/projects/gmao/SIteam/Models/GEOSgcm-v11.6.0/install-SLES15
+
+existing_geos_gcm_source_path:
+  default_value: ${HOME2}/discover/nobackup/projects/gmao/SIteam/Models/GEOSgcm-v11.6.0/
+
+existing_jedi_build_directory:
+  default_value: ${HOME}/repos/br_jedi_all/br_jedi_1219_2024/build
+
+existing_jedi_build_directory_pinned:
+  default_value: ${HOME}/repos/br_jedi_all/br_jedi_1219_2024/build
+
+existing_jedi_source_directory:
+  default_value: ${HOME}/repos/br_jedi_all/br_jedi_1219_2024/jedi-bundle
+
+existing_jedi_source_directory_pinned:
+  default_value: ${HOME}/repos/br_jedi_all/br_jedi_1219_2024/jedi-bundle
+
+geos_experiment_directory:
+  default_value: 5deg_v11
+
+geos_restarts_directory:
+  default_value: restarts_20210601_030000
+
+r2d2_local_path:
+  default_value: ${HOME2}/discover/nobackup/${USER}/R2D2DataStore/Local
+
+swell_static_files:
+  default_value: ${HOME2}/discover/nobackup/projects/gmao/advda/SwellStaticFiles
+

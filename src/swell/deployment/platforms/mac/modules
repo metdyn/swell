@@ -1,0 +1,42 @@
+# Module initialization
+# ---------------------
+
+
+# JEDI Python Path
+# ----------------
+PYTHONPATH={{experiment_root}}/{{experiment_id}}/jedi_bundle/build/lib/python{{python_majmin}}:$PYTHONPATH
+
+# Aircraft Bias Python Path
+# -------------------------
+PYTHONPATH={{experiment_root}}/{{experiment_id}}/jedi_bundle/source/iodaconv/src/gsi_varbc:$PYTHONPATH
+
+#  TEST if this will work
+## Load GEOS modules
+## -----------------
+#module use -a /discover/swdev/gmao_SIteam/modulefiles-SLES15
+#module load other/mepo
+#
+## Load r2d2 modules
+## -----------------
+#module use -a /discover/nobackup/projects/gmao/advda/JediOpt/modulefiles/core
+#module load solo/sles15_skylab7
+#module load py-boto3
+#module load r2d2/sles15_skylab7
+#
+## Load eva and jedi_bundle
+## ------------------------
+#module load eva/sles15_1.6.1
+#module load jedi_bundle/sles15_skylab7
+#
+
+# Set the swell paths
+# -------------------
+PATH={{swell_bin_path}}:$PATH
+PYTHONPATH={{swell_lib_path}}:$PYTHONPATH
+
+# Unlimited Stacksize
+# -------------------
+ulimit -S -s unlimited
+ulimit -S -v unlimited
+umask 022
+
