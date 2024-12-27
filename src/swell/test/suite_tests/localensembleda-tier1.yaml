@@ -20,7 +20,7 @@ models:
     local_ensemble_save_posterior_mean_increment: true        # default: true
     local_ensemble_save_posterior_ensemble: false             # default: false
     local_ensemble_save_posterior_ensemble_increments: false  # default: false
-    path_to_ensemble: /discover/nobackup/projects/gmao/advda/SwellTestData/letk/ensemble/91/Y%Y/M%m/D%d/H%H/geos*%Y%m%d_%H%M%Sz.nc4
+    path_to_ensemble: ${HOME2}/discover/nobackup/projects/gmao/advda/SwellTestData/letk/ensemble/91/Y%Y/M%m/D%d/H%H/geos*%Y%m%d_%H%M%Sz.nc4
     observations:
     - aircraft
     - sondes
