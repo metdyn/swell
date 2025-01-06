@@ -268,7 +268,6 @@ class taskFactory():
         # Convert camel case string to snake case
         task_lower = camel_case_to_snake_case(task)
 
-        print('task_lower', task_lower)
         # Import class based on user selected task
         task_class = getattr(importlib.import_module('swell.tasks.'+task_lower), task)
 
