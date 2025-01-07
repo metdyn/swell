@@ -23,6 +23,7 @@ models:
     path_to_ensemble: ${HOME2}/discover/nobackup/projects/gmao/advda/SwellTestData/letk/ensemble/91/Y%Y/M%m/D%d/H%H/geos*%Y%m%d_%H%M%Sz.nc4
     observations:
     - omi_aura
+#    - gps
 
 #    - aircraft
 #    - sondes
