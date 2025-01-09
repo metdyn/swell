@@ -119,7 +119,9 @@ def run_executable(
     # -----------------------
     logger.info('Running '+jedi_executable_path+' with '+str(np)+' processors.')
 
-    command = ['mpirun', '-np', str(np), jedi_executable_path, jedi_config_file]
+#    command = ['mpirun', '-np', str(np), jedi_executable_path, jedi_config_file]
+#   ygyu for Mac
+    command = ['mpirun', '--oversubscribe', '-np', str(np), jedi_executable_path, jedi_config_file]
 
     # Run command
     # -----------
